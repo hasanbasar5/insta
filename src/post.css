@@ -1,0 +1,198 @@
+.post_head{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: black;
+    margin-top: 10px;
+}
+.post{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.post-pic{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.post-pic img{
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+    position: relative;
+}
+
+
+.p-1,.p-2,.p-3,.p-4,.p-5,.p-6,
+.p-7,.p-8,.p-9,.p-10,.p-11,.p-12{
+    position: relative;
+    overflow: hidden;
+}
+/* .p-1::after{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 1;
+    top: 0;
+    display: none;
+    left: 0;
+    z-index:1;
+} */
+/* .p-1:hover::after{
+    opacity: .4;
+    display: block;
+ 
+} */
+
+.cnt-1{
+
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+gap: 8PX;
+top: 46%;
+left:20%;
+color: white;
+font-size: 1.4em;
+font-weight: bold;
+   
+}
+.like-1{
+    width: 100%;
+    height: 100%;
+  background-color: rgba(0, 0, 0, 0.452);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow: hidden;
+  
+}
+.like-1 p{
+    margin: 0;
+    padding: 0;
+   margin-top: -4px;
+   
+}
+.cnt-2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 46%;
+    left:55%;
+    color: white;
+    font-size: 1.4em;
+    gap: 8PX;
+    font-weight: bold;
+       
+    }
+    .p-1:hover > .like-1, .p-2:hover > .like-1,
+    .p-3:hover > .like-1,.p-4:hover > .like-1,
+    .p-5:hover > .like-1,
+    .p-6:hover > .like-1,
+    .p-7:hover > .like-1,
+    .p-8:hover > .like-1,
+    .p-9:hover > .like-1,
+    .p-10:hover > .like-1,
+    .p-11:hover > .like-1,
+    .p-12:hover > .like-1
+    {
+display: block;
+    }
+    .main_cards{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        border: 1px slid gray;
+        position: relative;
+        overflow: hidden;
+    }
+    .card_1{
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        width: 180px;
+        height: fit-content;
+        border: 1px solid gray;
+        padding: 5px;
+        gap: 5px;
+        margin-top: 60px;
+        position: relative;
+        font-size: 1em;
+        
+    }
+    .card_1 img{
+     
+        border-radius: 100px;
+        object-fit: cover;
+    }
+    .card_1 p,h4{
+        margin: 0;
+        padding: 0;
+    }
+    .card_1 button{
+        background-color: rgba(128, 128, 128, 0.311);
+        color: black;
+        font-weight: lighter;
+        padding: 7px 15px 7px 15px;
+        margin: 0;
+        margin-top: 8px;
+    }
+    .card_1 p{
+        color: gray;
+    }
+    .fa-xmark{
+        color: gray;
+        position: absolute;
+        top: 5px;
+        right:5px;
+    }
+    .related {
+        display: flex;
+        position: absolute;
+top: 0;
+align-items: center;
+justify-content: space-evenly;
+gap: 670px;
+    }
+    .related h3{
+        color: gray;
+    }
+    .related h4{
+        color: #0095f6;
+    }
+    .footer{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: ;
+    }
+    .footer .ftr{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 0.8em;
+        color:gray;
+        margin-top: 50px;
+    }
+    .ftr-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        color: gray;
+    }
